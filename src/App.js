@@ -18,7 +18,6 @@ function App() {
     <Contenedor>
       <Header titulo="Cotizador de seguros" />
       <ContenedorFormulario>
-        <h1> Form </h1>
         <Formulario />
       </ContenedorFormulario>
     </Contenedor>
