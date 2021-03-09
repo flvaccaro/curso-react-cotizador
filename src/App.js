@@ -47,7 +47,7 @@ function App() {
             <Spinner fadeIn="quarter" name="three-bounce" />
           </ContenedorSpinner>
         ) : null}
-        <Resumen datos={datos} />
+        {!cargando ? <Resumen datos={datos} /> : null}
         {!cargando ? <Resultado cotizacion={parseFloat(cotizacion)} /> : null}
       </ContenedorFormulario>
     </Contenedor>
